@@ -1,0 +1,15 @@
+node_modules
+data
+summaries
+*.log
+*.hdt.index*
+.nyc_output
+
+# Ignore deployment configuration files, but keep defaults and examples
+config.json
+config/*.json
+!config/config-defaults.json
+!config/config-example*.json
+
+# Ignore dev environment files
+.idea

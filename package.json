@@ -1,0 +1,49 @@
+{
+  "name": "@ldf/server",
+  "description": "Quad Pattern Fragments Linked Data Fragments Server",
+  "version": "3.0.9",
+  "lsd:module": "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/server",
+  "lsd:contexts": {
+    "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/server/^3.0.0/components/context.jsonld": "components/context.jsonld"
+  },
+  "lsd:importPaths": {
+    "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/server/^3.0.0/components/": "components/",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/server/^3.0.0/config/": "config/"
+  },
+  "license": "MIT",
+  "bin": {
+    "ldf-server": "./bin/ldf-server",
+    "ldf-server-migrate-config-3x": "./bin/ldf-server-migrate-config-3x"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "components",
+    "config",
+    "lib/**/*.js",
+    "bin/**/*",
+    "index.js"
+  ],
+  "repository": "https://github.com/LinkedDataFragments/Server.js/tree/master/packages/server",
+  "bugs": {
+    "url": "https://github.com/LinkedDataFragments/Server.js/issues"
+  },
+  "scripts": {
+    "test": "nyc mocha",
+    "lint": "eslint bin/* lib test"
+  },
+  "dependencies": {
+    "@ldf/core": "^3.0.7",
+    "@ldf/datasource-composite": "^3.0.7",
+    "@ldf/datasource-hdt": "^3.0.9",
+    "@ldf/datasource-jsonld": "^3.0.7",
+    "@ldf/datasource-n3": "^3.0.8",
+    "@ldf/datasource-sparql": "^3.0.7",
+    "@ldf/feature-memento": "^3.0.7",
+    "@ldf/feature-qpf": "^3.0.7",
+    "@ldf/feature-summary": "^3.0.7",
+    "@ldf/preset-qpf": "^3.0.0",
+    "ldf-datasource-summary": "0.0.1"
+  }
+}
