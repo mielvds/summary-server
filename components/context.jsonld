@@ -6,7 +6,7 @@
     "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/datasource-jsonld/^3.0.0/components/context.jsonld",
     "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/datasource-n3/^3.0.0/components/context.jsonld",
     "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/datasource-sparql/^3.0.0/components/context.jsonld",
-    "https://linkedsoftwaredependencies.org/bundles/npm/ldf-datasource-summary/^0.0.1/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/ldf-datasource-summary/^0.0.0/components/context.jsonld",
     "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/feature-memento/^3.0.0/components/context.jsonld",
     "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/feature-qpf/^3.0.0/components/context.jsonld",
     "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/feature-summary/^3.0.0/components/context.jsonld",
